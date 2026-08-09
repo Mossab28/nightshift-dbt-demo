@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: order_entry
+    database: order_entry_db
+    schema: order_entry
+    tables:
+      - name: orders
+      - name: customers
+      - name: order_items

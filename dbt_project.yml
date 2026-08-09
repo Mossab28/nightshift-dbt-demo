@@ -1,0 +1,6 @@
+name: order_entry_analytics
+version: "1.0.0"
+profile: order_entry
+models:
+  order_entry_analytics:
+    +materialized: view
