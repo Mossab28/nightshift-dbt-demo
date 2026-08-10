@@ -7,7 +7,7 @@ select
     o.order_date,
     o.order_mode,
     o.order_status,
-    o.order_total,
+    o.order_amount AS order_total,
     o.cost_of_delivery,
     o.delivery_type,
     o.payment_method_code,
